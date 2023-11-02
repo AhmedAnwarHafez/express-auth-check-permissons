@@ -1,0 +1,26 @@
+{
+  "name": "auth0",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "agent-base": "^7.1.0",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "express-openid-connect": "^2.17.0"
+  },
+  "devDependencies": {
+    "jose": "^5.0.1",
+    "nodemon": "^3.0.1"
+  },
+  "overrides": {
+    "agent-base": "7.1.0"
+  }
+}
